@@ -78,7 +78,7 @@ export function MoodSubmission() {
 
               <div className="space-y-4">
                 <Label className="text-lg font-semibold">Select your mood *</Label>
-                <div className="grid grid-cols-5 gap-4">
+                <div className="grid grid-cols-3 md:grid-cols-5 gap-4">
                   {moods.map((mood) => (
                     <button
                       key={mood.value}
